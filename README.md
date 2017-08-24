@@ -64,6 +64,8 @@ This should usually be placed above the ViewPager it represents.
     app:stl_defaultTabBackground="?attr/selectableItemBackground"
     app:stl_defaultTabTextAllCaps="true"
     app:stl_defaultTabTextColor="#FC000000"
+    app:stl_defaultUnselectedTabTextColor="#FC000000"
+    app:stl_disableTabHighlighting="true"
     app:stl_defaultTabTextSize="12sp"
     app:stl_defaultTabTextHorizontalPadding="16dp"
     app:stl_defaultTabTextMinWidth="0dp"
@@ -148,6 +150,8 @@ There are several attributes you can set:
 | stl_defaultTabBackground | Background drawable of each tab. In general it set the StateListDrawable |
 | stl_defaultTabTextAllCaps | If set to true, all tab titles will be upper case, default true |
 | stl_defaultTabTextColor | Text color of the tab that was included by default |
+| stl_defaultUnselectedTabTextColor | Text color of the unselected tab that was included by default |
+| stl_disableTabHighlighting | Disables tab highlighting |
 | stl_defaultTabTextSize | Text size of the tab that was included by default |
 | stl_defaultTabTextHorizontalPadding | Text layout padding of the tab that was included by default |
 | stl_defaultTabTextMinWidth | Minimum width of tab |
@@ -259,14 +263,7 @@ public void onPageSelected(int position) {
 
 *__Notes:__ If using fragment inside a ViewPager, Must be use [Fragment#getChildFragmentManager()](http://developer.android.com/reference/android/support/v4/app/Fragment.html#getChildFragmentManager).*
 
-# Apps Using SmartTabLayout
 
-* [Qiitanium][qiitanium]
-* [Ameba](https://play.google.com/store/apps/details?id=jp.ameba&hl=ja)
-
-# Looking for iOS ?
- Check [WormTabStrip](https://github.com/EzimetYusup/WormTabStrip) out.
- 
 # LICENSE
 
 ```
