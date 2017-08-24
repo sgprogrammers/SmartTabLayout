@@ -8,4 +8,4 @@ and style in order to keep the code as readable as possible.
 
 ## Coding Style
 
-* Use the AndroidModernStyle of [Android Code Styles](https://github.com/ogaclejapan/android-code-styles) repository
+* Use the AndroidModernStyle of [Android Code Styles](https://github.com/sgprogrammers/android-code-styles) repository

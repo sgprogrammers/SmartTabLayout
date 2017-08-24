@@ -27,13 +27,13 @@ Add the dependency to your build.gradle.
 
 ```
 dependencies {
-    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    compile 'com.sgprogrammers.smarttablayout:library:1.6.1@aar'
 
     //Optional: see how to use the utility.
-    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    compile 'com.sgprogrammers.smarttablayout:utils-v4:1.6.1@aar'
 
     //Optional: see how to use the utility.
-    compile 'com.ogaclejapan.smarttablayout:utils-v13:1.6.1@aar'
+    compile 'com.sgprogrammers.smarttablayout:utils-v13:1.6.1@aar'
 }
 ```
 
@@ -42,7 +42,7 @@ This should usually be placed above the ViewPager it represents.
 
 ```xml
 
-<com.ogaclejapan.smarttablayout.SmartTabLayout
+<com.sgprogrammers.smarttablayout.SmartTabLayout
     android:id="@+id/viewpagertab"
     android:layout_width="match_parent"
     android:layout_height="48dp"
@@ -178,7 +178,7 @@ public class SmartTabLayout extends HorizontalScrollView {
 
     /**
      * Create the custom tabs in the tab layout. Set with
-     * {@link #setCustomTabView(com.ogaclejapan.smarttablayout.SmartTabLayout.TabProvider)}
+     * {@link #setCustomTabView(com.sgprogrammers.smarttablayout.SmartTabLayout.TabProvider)}
      */
     public interface TabProvider {
 
@@ -270,7 +270,7 @@ public void onPageSelected(int position) {
 # LICENSE
 
 ```
-Copyright (C) 2015 ogaclejapan
+Copyright (C) 2015 sgprogrammers
 Copyright (C) 2013 The Android Open Source Project
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -286,21 +286,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-[demo1_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo1.gif
-[demo2_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo2.gif
-[demo3_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo3.gif
-[demo4_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo4.gif
-[demo5_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo5.gif
-[demo6_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo6.gif
-[demo7_gif]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/demo7.gif
-[demo_app]: https://play.google.com/store/apps/details?id=com.ogaclejapan.smarttablayout.demo&referrer=utm_source%3Dgithub
-[demo_icon]: https://raw.githubusercontent.com/ogaclejapan/SmartTabLayout/master/art/icon.png
+[demo1_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo1.gif
+[demo2_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo2.gif
+[demo3_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo3.gif
+[demo4_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo4.gif
+[demo5_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo5.gif
+[demo6_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo6.gif
+[demo7_gif]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/demo7.gif
+[demo_app]: https://play.google.com/store/apps/details?id=com.sgprogrammers.smarttablayout.demo&referrer=utm_source%3Dgithub
+[demo_icon]: https://raw.githubusercontent.com/sgprogrammers/SmartTabLayout/master/art/icon.png
 [googleplay_store_badge]: http://www.android.com/images/brand/get_it_on_play_logo_large.png
-[maven_central_badge_svg]: https://maven-badges.herokuapp.com/maven-central/com.ogaclejapan.smarttablayout/library/badge.svg?style=flat
-[maven_central_badge_app]: https://maven-badges.herokuapp.com/maven-central/com.ogaclejapan.smarttablayout/library
+[maven_central_badge_svg]: https://maven-badges.herokuapp.com/maven-central/com.sgprogrammers.smarttablayout/library/badge.svg?style=flat
+[maven_central_badge_app]: https://maven-badges.herokuapp.com/maven-central/com.sgprogrammers.smarttablayout/library
 [android_arsenal_badge_svg]: https://img.shields.io/badge/Android%20Arsenal-SmartTabLayout-brightgreen.svg?style=flat
 [android_arsenal_badge_link]: http://android-arsenal.com/details/1/1683
 [android_weekly_badge_svg]: https://img.shields.io/badge/AndroidWeekly-%23148-blue.svg
 [android_weekly_badge_link]: http://androidweekly.net/issues/issue-148
-[qiitanium]: https://github.com/ogaclejapan/Qiitanium
+[qiitanium]: https://github.com/sgprogrammers/Qiitanium
 [google_slidingtabbasic]: https://github.com/googlesamples/android-SlidingTabsBasic

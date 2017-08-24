@@ -7,7 +7,7 @@
   android:background="?attr/selectableItemBackground"
   >
 
-  <com.ogaclejapan.smarttablayout.demo.TintableImageView
+  <com.sgprogrammers.smarttablayout.demo.TintableImageView
     android:id="@+id/custom_tab_icon"
     android:layout_width="24dp"
     android:layout_height="24dp"
